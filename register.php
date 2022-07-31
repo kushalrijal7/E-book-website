@@ -1,7 +1,8 @@
 <?php
     include_once('./include/adheader.php');
 ?>
-
+<body>
+    
     <main class="flex">
     <div class="rcontainer">
         <div class="user">        </div>
@@ -30,3 +31,12 @@
             </div>
     </div>
 </main>
+</body>
+<style>
+    body{
+        background-image: url("img/onepiece.jpg");
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 100%;
+    }
+</style>
